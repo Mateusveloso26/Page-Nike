@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+/* MENU */
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid rgb(199, 118, 12);
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 250px;
+}
+
+nav ul li {
+    margin: 25px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+nav ul li a:hover {
+    text-decoration: underline 3px solid rgb(199, 118, 12);
+    margin: 10px;
+    transition: all 0.9s;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais ul {
+    display: flex;
+    margin-left: 100px;
+}
+
+.redes-sociais ul li {
+    font-size: 30px;
+    margin: 10px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.redes-sociais ul li a {
+    color: #000;
+}
+
+/* MAIN */
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #b6b5b5;
+    width: 100%;
+    border: 2px solid rgb(199, 118, 12);
+}
+
+.container h1,
+p {
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+fieldset {
+    background: #929292;
+    border-radius: 20px;
+    padding: 50px;
+    border: 4px double rgb(0, 0, 0);
+}
+
+fieldset label {
+    font-weight: 500;
+    text-align: center;
+}
+
+fieldset input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    padding: 10px 30px;
+    border: 2px solid rgb(199, 118, 12);
+    margin: 20px;
+
+    outline: none;
+}
+
+.btn {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.img-secundaria {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.img-secundaria:hover {
+    padding: 10px;
+}
+
+figcaption {
+    margin-left: 100px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+/* RODAPÉ */
+footer {
+
+    background-color: #1f1c1c;
+    padding: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #ddd;
+}
+
+footer .links ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+footer .links ul li a,
+footer .redes-sociais ul li a {
+    color: #ddd;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .links ul li a:hover {
+    text-decoration: underline;
+}
+
+footer span {
+    text-transform: none;
+}
+
+footer .logo {
+    margin-top: 30px;
+    width: 70px;
+}
